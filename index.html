@@ -7,76 +7,81 @@
 </head>
 <body>
 
-<h1 style="border-bottom:2px #000000  solid;">HTTP</h1>
+<h1>HTTP</h1>
+<hr>
 <p>Материал из Википедии — свободной энциклопедии</p>
-<p><strong>HTTP </strong>(<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>HyperText Transfer Protocol</em> — протокол передачи <a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%82%D0%B5%D0%BA%D1%81%D1%82">гипертекста</a>) — <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB">сетевой</a> <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB">протокол</a> <a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B_%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D1%8F">прикладного уровня</a>, который изначально предназначался для получения с серверов гипертекстовых документов в формате HTML, а с течением времени стал универсальным средством взаимодействия между узлами как <a href="https://ru.wikipedia.org/wiki/%D0%92%D1%81%D0%B5%D0%BC%D0%B8%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D1%83%D1%82%D0%B8%D0%BD%D0%B0">Всемирной паутины</a>, так и изолированных веб-инфраструктур. Определение по основным документациям: HTTP — протокол уровня приложений для распределённых, объединённых, гипермедийный информационных систем, используемый в глобальной информационной инициативе Всемирной паутины с 1990-го года<u>[1]</u>.</p>
+<p><b>HTTP</b>(<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>HyperText Transfer Protocol</em> — протокол передачи <a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%82%D0%B5%D0%BA%D1%81%D1%82">гипертекста</a>) — <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB">сетевой</a> <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB">протокол</a> <a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B_%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D1%8F">прикладного уровня</a>, который изначально предназначался для получения с серверов гипертекстовых документов в формате HTML, а с течением времени стал универсальным средством взаимодействия между узлами как <a href="https://ru.wikipedia.org/wiki/%D0%92%D1%81%D0%B5%D0%BC%D0%B8%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D1%83%D1%82%D0%B8%D0%BD%D0%B0">Всемирной паутины</a>, так и изолированных веб-инфраструктур. Определение по основным документациям: HTTP — протокол уровня приложений для распределённых, объединённых, гипермедийный информационных систем, используемый в глобальной информационной инициативе Всемирной паутины с 1990-го года[<a href="#link1">1</a>].</p>
 
-<div style="border:1px #000000 solid; width: 15%">
-    <h2 style="border-bottom:2px #000000 solid;">Содержание</h2>
-    <ul style="list-style-type: none; padding-left: 0;">
-        <li style="font-weight: bold;"><a href="#main-options"><b>Основные свойства</b></a></li>
-        <li style="font-weight: bold;"><a href="#software"><b>Программное обеспечение</b></a>
-            <ul style="list-style-type: none;">
-                <li><a href="#clients">Клиенты</a></li>
-                <li><a href="#source-servers">Исходные серверы</a></li>
-                <li><a href="#proxy-servers">Прокси-серверы</a></li>
-            </ul>
-        </li>
-        <li style="font-weight: bold;"><a href="#http-message-structure"><b>Структура HTTP-сообщения</b></a>
-            <ul style="list-style-type: none;">
-                <li><a href="#start-line">Стартовая строка</a></li>
-                <li>
-                    <a href="#methods">Методы</a>
-                    <ul style="list-style-type: none;">
-                        <li><a href="#options">OPTIONS</a></li>
-                        <li><a href="#get">GET</a></li>
-                        <li><a href="#head">HEAD</a></li>
-                        <li><a href="#post">POST</a></li>
-                        <li><a href="#put">PUT</a></li>
-                        <li><a href="#patch">PATCH</a></li>
-                        <li><a href="#delete">DELETE</a></li>
-                        <li><a href="#trace">TRACE</a></li>
-                        <li><a href="#connect">CONNECT</a></li>
+<table>
+    <tr>
+        <td>
+            <h2>Содержание</h2>
+            <hr>
+            <ul>
+                <li><a href="#main-options"><b>Основные свойства</b></a></li>
+                <li><a href="#software"><b>Программное обеспечение</b></a>
+                    <ul>
+                        <li><a href="#clients">Клиенты</a></li>
+                        <li><a href="#source-servers">Исходные серверы</a></li>
+                        <li><a href="#proxy-servers">Прокси-серверы</a></li>
                     </ul>
                 </li>
-                <li><a href="#status-codes">Коды состояния</a></li>
-                <li><a href="#titles">Заголовки</a></li>
-                <li><a href="#message-body">Тело сообщения</a></li>
-            </ul>
-        </li>
-        <li style="font-weight: bold;"><a href="#examples-of-http-dialogs"><b>Примеры диалогов HTTP</b></a></li>
-        <li style="font-weight: bold;"><a href="#basic-protocol-mechanisms"><b>Основные механизмы протокола</b></a>
-            <ul style="list-style-type: none;">
-                <li><a href="#partial-get">Частичные GET</a></li>
-                <li><a href="#conditional-get">Условные GET</a></li>
-                <li>
-                    <a href="#content-negotiation">Согласование содержимого</a>
-                    <ul style="list-style-type: none;">
-                        <li><a href="#server-managed">Управляемое сервером</a></li>
-                        <li><a href="#client-managed">Управляемое клиентом</a></li>
-                        <li><a href="#transparent-negotiation">Прозрачное согласование</a></li>
+                <li><a href="#http-message-structure"><b>Структура HTTP-сообщения</b></a>
+                    <ul>
+                        <li><a href="#start-line">Стартовая строка</a></li>
+                        <li><a href="#methods">Методы</a>
+                            <ul>
+                                <li><a href="#options">OPTIONS</a></li>
+                                <li><a href="#get">GET</a></li>
+                                <li><a href="#head">HEAD</a></li>
+                                <li><a href="#post">POST</a></li>
+                                <li><a href="#put">PUT</a></li>
+                                <li><a href="#patch">PATCH</a></li>
+                                <li><a href="#delete">DELETE</a></li>
+                                <li><a href="#trace">TRACE</a></li>
+                                <li><a href="#connect">CONNECT</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#status-codes">Коды состояния</a></li>
+                        <li><a href="#titles">Заголовки</a></li>
+                        <li><a href="#message-body">Тело сообщения</a></li>
                     </ul>
                 </li>
-                <li><a href="#multiple-content">Множественное содержимое</a></li>
+                <li><a href="#examples-of-http-dialogs"><b>Примеры диалогов HTTP</b></a></li>
+                <li><a href="#basic-protocol-mechanisms"><b>Основные механизмы протокола</b></a>
+                    <ul>
+                        <li><a href="#partial-get">Частичные GET</a></li>
+                        <li><a href="#conditional-get">Условные GET</a></li>
+                        <li><a href="#content-negotiation">Согласование содержимого</a>
+                            <ul>
+                                <li><a href="#server-managed">Управляемое сервером</a></li>
+                                <li><a href="#client-managed">Управляемое клиентом</a></li>
+                                <li><a href="#transparent-negotiation">Прозрачное согласование</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#multiple-content">Множественное содержимое</a></li>
+                    </ul>
+                </li>
+                <li><a href="#development-history"><b>История развития</b></a></li>
+                <li><a href="#see-also"><b>См. также</b></a></li>
+                <li><a href="#notes"><b>Примечания</b></a></li>
+                <li><a href="#links"><b>Ссылки</b></a></li>
             </ul>
-        </li>
-        <li style="font-weight: bold;"><a href="#development-history"><b>История развития</b></a></li>
-        <li style="font-weight: bold;"><a href="#see-also"><b>См. также</b></a></li>
-        <li style="font-weight: bold;"><a href="#notes"><b>Примечания</b></a></li>
-        <li style="font-weight: bold;"><a href="#links"><b>Ссылки</b></a></li>
-    </ul>
-</div>
+        </td>
+    </tr>
+</table>
 
-<h2 id="main-options" style="border-bottom:2px #000000  solid;">Основные свойства</h2>
+<h2 id="main-options">Основные свойства</h2>
+<hr>
 <p>Основой	HTTP	является	<a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80">технология	«клиент-сервер»</a>,	то	есть	предполагается существование:</p>
-<ul style="list-style-type: square;">
+<ul>
     <li>Потребителей (<a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D1%8B%D0%B9)">клиентов</a>), которые инициируют соединение и посылают запрос;</li>
     <li>
         Поставщиков (<a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80_(%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5)">серверов</a>), которые ожидают соединения для получения запроса,<br/>
         производят необходимые действия и возвращают обратно сообщение с результатом.
     </li>
 </ul>
-<p>HTTP в настоящее время повсеместно используется во <a href="https://ru.wikipedia.org/wiki/%D0%92%D1%81%D0%B5%D0%BC%D0%B8%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D1%83%D1%82%D0%B8%D0%BD%D0%B0">Всемирной паутине</a> для получения информации с <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D0%B0%D0%B9%D1%82">веб-сайтов</a>. В <a href="https://ru.wikipedia.org/wiki/2006_%D0%B3%D0%BE%D0%B4">2006 году</a> в <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0">Северной Америке</a> доля HTTP-<a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F">трафика</a> превысила долю <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D1%80%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D1%8B%D0%B5_%D1%81%D0%B5%D1%82%D0%B8">P2P-сетей</a> и составила 46 %, из которых почти половина — это передача <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%B2%D0%BE%D0%B5_%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0">потокового</a> видео и звука<u>[2]</u>.</p>
+<p>HTTP в настоящее время повсеместно используется во <a href="https://ru.wikipedia.org/wiki/%D0%92%D1%81%D0%B5%D0%BC%D0%B8%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D1%83%D1%82%D0%B8%D0%BD%D0%B0">Всемирной паутине</a> для получения информации с <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D0%B0%D0%B9%D1%82">веб-сайтов</a>. В <a href="https://ru.wikipedia.org/wiki/2006_%D0%B3%D0%BE%D0%B4">2006 году</a> в <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0">Северной Америке</a> доля HTTP-<a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F">трафика</a> превысила долю <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D1%80%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D1%8B%D0%B5_%D1%81%D0%B5%D1%82%D0%B8">P2P-сетей</a> и составила 46 %, из которых почти половина — это передача <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%B2%D0%BE%D0%B5_%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0">потокового</a> видео и звука[<a href="#link2">2</a>].</p>
 <p>HTTP используется также в качестве «транспорта» для других протоколов прикладного уровня, таких как <a href="https://ru.wikipedia.org/wiki/SOAP">SOAP</a>, <a href="https://ru.wikipedia.org/wiki/XML-RPC">XML-RPC</a>, <a href="https://ru.wikipedia.org/wiki/WebDAV">WebDAV</a>.</p>
 <p>Основным объектом манипуляции в HTTP является ресурс, на который указывает <a href="https://ru.wikipedia.org/wiki/URI">URI</a> (Uniform Resource Identifier) в запросе клиента. Обычно такими ресурсами являются хранящиеся на сервере <a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB">файлы</a>, но ими могут быть логические объекты или что-то абстрактное. Особенностью протокола HTTP является возможность указать в запросе и <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4_%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%B0#%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5_%D1%81_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%BC_(HTTP)">ответе</a> способ представления одного и того же ресурса по различным параметрам: <a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%D1%82_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">формату</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2">кодировке</a>, языку и т. д. (в частности, для этого используется <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8_HTTP">HTTP-заголовок</a>). Именно благодаря возможности указания способа кодирования сообщения клиент и сервер могут обмениваться <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D0%B8%D1%87%D0%BD%D1%8B%D0%B5_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5">двоичными данными</a>, хотя данный протокол является текстовым.</p>
 <p>HTTP — протокол <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C_OSI">прикладного уровня</a>; аналогичными ему являются <a href="https://ru.wikipedia.org/wiki/File_Transfer_Protocol">FTP</a> и <a href="https://ru.wikipedia.org/wiki/SMTP">SMTP</a>. Обмен сообщениями идёт по обыкновенной схеме «запрос-ответ». Для идентификации ресурсов HTTP использует глобальные <a href="https://ru.wikipedia.org/wiki/URI">URI</a>. В отличие от многих других протоколов, HTTP не сохраняет своего состояния. Это означает отсутствие сохранения промежуточного состояния между парами «запрос-ответ». Компоненты, использующие HTTP, могут самостоятельно осуществлять сохранение информации о состоянии, связанной с последними запросами и ответами (например, «<a href="https://ru.wikipedia.org/wiki/HTTP_cookie">куки</a>» на стороне клиента, «сессии» на стороне сервера). Браузер, посылающий запросы, может отслеживать задержки ответов. Сервер может хранить <a href="https://ru.wikipedia.org/wiki/IP-%D0%B0%D0%B4%D1%80%D0%B5%D1%81">IP-адреса</a> и заголовки запросов последних клиентов. Однако сам протокол не осведомлён о предыдущих запросах и ответах, в нём не предусмотрена внутренняя поддержка состояния, к нему не предъявляются такие требования.</p>
@@ -85,9 +90,10 @@
 <p>Кроме того, HTTP позволяет клиенту прислать на сервер параметры, которые будут переданы запускаемому CGI-скрипту. Для этого же в <a href="https://ru.wikipedia.org/wiki/HTML">HTML</a> были введены формы.</p>
 <p>Перечисленные особенности HTTP позволили создавать поисковые машины (первой из которых стала <a href="https://ru.wikipedia.org/wiki/AltaVista">AltaVista</a>, созданная фирмой <a href="https://ru.wikipedia.org/wiki/DEC">DEC</a>), форумы и Internet-магазины. Это коммерциализировало Интернет, появились компании, основным полем деятельности которых стало предоставление доступа в Интернет (провайдеры) и создание сайтов.</p>
 
-<h2 id="software" style="border-bottom:2px #000000  solid;">Программное обеспечение</h2>
+<h2 id="software">Программное обеспечение</h2>
+<hr>
 <p>Всё программное обеспечение для работы с протоколом HTTP разделяется на три большие категории:</p>
-<ul style="list-style-type: square;">
+<ul>
     <li>
         Серверы как основные поставщики услуг хранения и обработки информации<br/>
         (обработка запросов);
@@ -108,7 +114,8 @@
 <h3 id="proxy-servers">Прокси-серверы</h3>
 <p>Основные реализации: <a href="https://ru.wikipedia.org/wiki/Squid">Squid</a>, <a href="https://ru.wikipedia.org/wiki/UserGate">UserGate</a>, <a href="https://ru.wikipedia.org/w/index.php?title=Multiproxy&action=edit&redlink=1">Multiproxy</a>, <a href="https://ru.wikipedia.org/w/index.php?title=Naviscope&action=edit&redlink=1">Naviscope</a>, <a href="https://ru.wikipedia.org/wiki/Nginx">nginx</a>.</p>
 
-<h2 id="http-message-structure" style="border-bottom:2px #000000  solid;">Структура HTTP-сообщения</h2>
+<h2 id="http-message-structure">Структура HTTP-сообщения</h2>
+<hr>
 <p>Каждое HTTP-сообщение состоит из трёх частей, которые передаются в указанном порядке:</p>
 <ol>
     <li>Стартовая строка (<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>Starting line</em>) — определяет тип сообщения;</li>
@@ -126,12 +133,12 @@
 
 <h3 id="start-line">Стартовая строка</h3>
 <p>Стартовые строки различаются для запроса и ответа. Строка запроса выглядит так:</p>
-<ul style="list-style-type: none;">
+<ul>
     <li><code>GET URI</code> — для версии протокола 0.9;</li>
     <li><code>Метод URI HTTP/Версия</code> — для остальных версий.</li>
 </ul>
 <p>Здесь:</p>
-<ul style="list-style-type: square;">
+<ul>
     <li>
         Метод (<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>Method</em>) — тип запроса, одно слово заглавными буквами. В версии HTTP<br/>
         0.9 использовался только метод GET, список методов для версии 1.1 представлен<br/>
@@ -141,14 +148,18 @@
     <li>Версия (<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>Version</em>) — пара разделённых точкой <a href="https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B5_%D1%86%D0%B8%D1%84%D1%80%D1%8B">цифр</a>. Например: 1.0.</li>
 </ul>
 <p>Чтобы запросить страницу данной статьи, клиент должен передать строку (задан всего один заголовок):</p>
-<p style="border:2px #000000  dashed; padding: 5px 0 5px 15px;">
-    <code>
-    GET /wiki/HTTP HTTP/1.0<br/>
-    Host: ru.wikipedia.org
-    </code>
-</p>
+<table>
+    <tr>
+        <td>
+            <code>
+                GET /wiki/HTTP HTTP/1.0<br/>
+                Host: ru.wikipedia.org
+            </code>
+        </td>
+    </tr>
+</table>
 <p>Стартовая строка ответа сервера имеет следующий формат: <code>HTTP/Версия КодСостояния Пояснение</code>, где:</p>
-<ul style="list-style-type: square;">
+<ul>
     <li>Версия — пара разделённых точкой цифр, как в запросе;</li>
     <li>
         Код состояния (<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>Status Code</em>) — три цифры. По <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4_%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%B0#%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5_%D1%81_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%BC_(HTTP)">коду состояния</a> определяется<br/>
@@ -160,7 +171,13 @@
     </li>
 </ul>
 <p>Например, стартовая строка ответа сервера на предыдущий запрос может выглядеть так:</p>
-<p style="border:2px #000000  dashed; padding: 5px 0 5px 15px;"><code>HTTP/1.0 200 OK</code></p>
+<table>
+    <tr>
+        <td>
+            <code>HTTP/1.0 200 OK</code>
+        </td>
+    </tr>
+</table>
 
 <h3 id="methods">Методы</h3>
 <p>Метод HTTP (<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>HTTP Method</em>) — последовательность из любых символов, кроме управляющих и разделителей, указывающая на основную операцию над ресурсом. Обычно метод представляет собой короткое английское слово, записанное заглавными буквами. Обратите внимание, что название метода чувствительно к регистру.</p>
@@ -178,9 +195,9 @@
 <p>Клиент может передавать параметры выполнения запроса в <code>URI</code> целевого ресурса после символа «<code>?</code>»:<br/>
     <code>GET /path/resource?param1=value1&param2=value2 HTTP/1.1</code>
 </p>
-<p>Согласно стандарту <code>HTTP</code>, запросы типа <code>GET</code> считаются <a href="https://ru.wikipedia.org/wiki/%D0%98%D0%B4%D0%B5%D0%BC%D0%BF%D0%BE%D1%82%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C">идемпотентными</a>[3] </p>
+<p>Согласно стандарту <code>HTTP</code>, запросы типа <code>GET</code> считаются <a href="https://ru.wikipedia.org/wiki/%D0%98%D0%B4%D0%B5%D0%BC%D0%BF%D0%BE%D1%82%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C">идемпотентными</a>[<a href="#link3">3</a>]</p>
 <p>Кроме обычного метода <code>GET</code>, различают ещё</p>
-<ul style="list-style-type: square;">
+<ul>
     <li>
         Условный <code>GET</code> — содержит заголовки <code>If-Modified-Since, If-Match, If-Range</code> и<br/>
         подобные;
@@ -195,7 +212,7 @@
 
 <h4 id="post">POST</h4>
 <p>Применяется для передачи пользовательских данных заданному ресурсу. Например, в <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D0%BE%D0%B3">блогах</a> посетители обычно могут вводить свои комментарии к записям в HTML-форму, после чего они передаются серверу методом <a href="https://ru.wikipedia.org/wiki/POST_(HTTP)">POST</a> и он помещает их на страницу. При этом передаваемые данные (в примере с блогами — текст комментария) включаются в тело запроса. Аналогично с помощью метода <code>POST</code> обычно загружаются файлы на сервер.</p>
-<p>В отличие от метода <code>GET</code>, метод <code>POST</code> не считается идемпотентным[3], то есть многократное повторение одних и тех же запросов <code>POST</code> может возвращать разные результаты (например, после каждой отправки комментария будет появляться очередная копия этого комментария).</p>
+<p>В отличие от метода <code>GET</code>, метод <code>POST</code> не считается идемпотентным[<a href="#link3">3</a>], то есть многократное повторение одних и тех же запросов <code>POST</code> может возвращать разные результаты (например, после каждой отправки комментария будет появляться очередная копия этого комментария).</p>
 <p>При результате выполнения <code>200</code> (Ok) в тело ответа следует включить сообщение об итоге выполнения запроса. Если был создан ресурс, то серверу следует вернуть ответ <code>201</code> (Created) с указанием <a href="https://ru.wikipedia.org/wiki/URI">URI</a> нового ресурса в заголовке <code>Location</code>.</p>
 <p>Сообщение ответа сервера на выполнение метода <code>POST</code> не кэшируется.</p>
 
@@ -217,34 +234,39 @@
 <p>Преобразует	соединение	запроса	в	прозрачный	<a href="https://ru.wikipedia.org/wiki/TCP/IP">TCP/IP</a>-туннель,	обычно	чтобы содействовать установлению защищённого <a href="https://ru.wikipedia.org/wiki/SSL">SSL</a>-соединения через нешифрованный <a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D1%81%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80">прокси</a>.</p>
 
 <h3 id="status-codes">Коды состояния</h3>
-<p>Код состояния является частью первой строки ответа сервера. Он представляет собой целое число из трёх цифр[4]. Первая цифра указывает на класс состояния. За <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4_%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%B0#%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5_%D1%81_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%BC_(HTTP)">кодом ответа</a> обычно следует отделённая пробелом поясняющая фраза на английском языке, которая разъясняет человеку причину именно такого ответа. Примеры:</p>
-<p style="border:2px #000000  dashed; padding: 5px 0 5px 15px;">
-    <code>
-    201 Webpage Created<br/>
-    403 Access allowed only for registered users<br/>
-    507 Insufficient Storage
-    </code>
-</p>
+<p>Код состояния является частью первой строки ответа сервера. Он представляет собой целое число из трёх цифр[<a href="#link4">4</a>]. Первая цифра указывает на класс состояния. За <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4_%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%B0#%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5_%D1%81_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%BC_(HTTP)">кодом ответа</a> обычно следует отделённая пробелом поясняющая фраза на английском языке, которая разъясняет человеку причину именно такого ответа. Примеры:</p>
+<table>
+    <tr>
+        <td>
+          <code>
+            201 Webpage Created<br/>
+            403 Access allowed only for registered users<br/>
+            507 Insufficient Storage
+          </code>
+        </td>
+    </tr>
+</table>
 <p>Клиент узнаёт по коду ответа о результатах его запроса и определяет, какие действия ему предпринимать дальше. Набор кодов состояния является стандартом, и они описаны в соответствующих документах <a href="https://ru.wikipedia.org/wiki/RFC">RFC</a>. Введение новых кодов должно производиться только после согласования с <a href="https://ru.wikipedia.org/wiki/IETF">IETF</a>. Клиент может не знать все коды состояния, но он обязан отреагировать в соответствии с классом кода.</p>
 <p>В настоящее время выделено пять классов кодов состояния</p>
-<table style="border:1px #000000 solid; border-collapse: collapse; text-align: center; width: 100%;">
+<table>
     <tr>
-        <td style="border: 1px #000000 solid; padding: 5px;">Код</td>
-        <td style="border: 1px #000000 solid; padding: 5px;">Класс</td>
-        <td style="border: 1px #000000 solid; padding: 5px;">Назначение</td>
+        <td>Код</td>
+        <td>Класс</td>
+        <td>Назначение</td>
     </tr>
     <tr>
-        <td style="border: 1px #000000 solid; padding: 5px;">1xx</td>
-        <td style="border: 1px #000000 solid; padding: 5px;">
+        <td>1xx</td>
+        <td>
             <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#1xx">
-            Информационный
+                Информационный
             </a>
-            <p>(англ. <b>informational</b>)</p>
+            <br/>
+            (англ. <b>informational</b>)
         </td>
-        <td style="border: 1px #000000 solid; padding: 5px;">
+        <td>
             <p>Информирование о процессе передачи.</p>
             <p>
-                В HTTP/1.0 —	сообщения с	такими кодами должны<br/>
+                В HTTP/1.0 — сообщения с такими кодами должны<br/>
                 игнорироваться.
             </p>
             <p>
@@ -262,30 +284,32 @@
         </td>
     </tr>
     <tr>
-        <td style="border: 1px #000000 solid; padding: 5px;">2xx</td>
-        <td style="border: 1px #000000 solid; padding: 5px;">
+        <td>2xx</td>
+        <td>
             <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#2xx">
                 Успех
             </a>
-            <p>(англ. <b>Success</b>)</p>
+            <br/>
+            (англ. <b>Success</b>)
         </td>
-        <td style="border: 1px #000000 solid; padding: 5px;">
+        <td>
             <p>
                 Информирование о случаях успешного принятия и обработки запроса<br/>
                 клиента. В зависимости от статуса, сервер может ещё передать<br/>
                 заголовки и тело сообщения.
             </p>
-       </td>
+        </td>
     </tr>
     <tr>
-        <td style="border: 1px #000000 solid; padding: 5px;">3xx</td>
-        <td style="border: 1px #000000 solid; padding: 5px;">
+        <td>3xx</td>
+        <td>
             <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#3xx">
                 Перенаправление
             </a>
-            <p>(англ. <b>Redirection</b>)</p>
+            <br/>
+            (англ. <b>Redirection</b>)
         </td>
-        <td style="border: 1px #000000 solid; padding: 5px;">
+        <td>
             <p>
                 Сообщает клиенту, что для успешного выполнения операции<br/>
                 необходимо сделать другой запрос (как правило по другому URI). Из<br/>
@@ -298,14 +322,15 @@
         </td>
     </tr>
     <tr>
-        <td style="border: 1px #000000 solid; padding: 5px;">4xx</td>
-        <td style="border: 1px #000000 solid; padding: 5px;">
+        <td>4xx</td>
+        <td>
             <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#4xx">
                 Ошибка клиента
             </a>
-            <p>(англ. <b>Client Error</b>)</p>
+            <br/>
+            (англ. <b>Client Error</b>)
         </td>
-        <td style="border: 1px #000000 solid; padding: 5px;">
+        <td>
             <p>
                 Указание ошибок со стороны клиента. При использовании всех<br/>
                 методов, кроме <code>HEAD</code>, сервер должен вернуть в теле сообщения<br/>
@@ -314,14 +339,15 @@
         </td>
     </tr>
     <tr>
-        <td style="border: 1px #000000 solid; padding: 5px;">5xx</td>
-        <td style="border: 1px #000000 solid; padding: 5px;">
+        <td>5xx</td>
+        <td>
             <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#5xx">
                 Ошибка сервера
             </a>
-            <p>(англ. <b>Server Error</b>)</p>
+            <br/>
+            (англ. <b>Server Error</b>)
         </td>
-        <td style="border: 1px #000000 solid; padding: 5px;">
+        <td>
             <p>
                 Информирование о случаях неудачного выполнения операции по вине<br/>
                 сервера. Для всех ситуаций, кроме использования метода <code>HEAD</code>, сервер<br/>
@@ -335,14 +361,18 @@
 <h3 id="titles">Заголовки</h3>
 <p>Заголовки HTTP (<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>HTTP Headers</em>) — это строки в HTTP-сообщении, содержащие разделённую двоеточием пару параметр-значение. Формат заголовков соответствует общему формату заголовков текстовых сетевых сообщений ARPA (см. <a href="https://tools.ietf.org/html/rfc822">RFC 822</a>). Заголовки должны отделяться от тела сообщения хотя бы одной пустой строкой.</p>
 <p>Примеры заголовков:</p>
-<p style="border:2px #000000  dashed; padding: 5px 0 5px 15px;">
-    <code>
-        Server: Apache/2.2.11 (Win32) PHP/5.3.0<br/>
-        Last-Modified: Sat, 16 Jan 2010 21:16:42 GMT<br/>
-        Content-Type: text/plain; charset=windows-1251<br/>
-        Content-Language: ru
-    </code>
-</p>
+<table>
+    <tr>
+        <td>
+            <code>
+                Server: Apache/2.2.11 (Win32) PHP/5.3.0<br/>
+                Last-Modified: Sat, 16 Jan 2010 21:16:42 GMT<br/>
+                Content-Type: text/plain; charset=windows-1251<br/>
+                Content-Language: ru
+            </code>
+        </td>
+    </tr>
+</table>
 <p>В примере выше каждая строка представляет собой один заголовок. При этом то, что находится до двоеточия, называется именем (<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>name</em>), а что после него — значением (<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>value</em>).</p>
 <p>Все заголовки разделяются на четыре основных группы:</p>
 <ol>
@@ -359,38 +389,44 @@
 
 <h3 id="message-body">Тело сообщения</h3>
 <p>Тело HTTP-сообщения (<code>message-body</code>), если оно присутствует, используется для передачи тела объекта, связанного с запросом или ответом. Тело сообщения отличается от тела объекта (<code>entity-body</code>) только в том случае, когда применяется кодирование передачи, что указывается полем заголовка <code>Transfer-Encoding</code>.</p>
-<p style="border:2px #000000  dashed; padding: 5px 0 5px 15px;">
-    <code>
-        message-bode = entity-body<br/>
-        | entity-body закодировано согласно<br/>
-        Transfer-Encoding>
-    </code>
-</p>
+<table>
+    <tr>
+        <td>
+            <code>
+                message-bode = entity-body<br/>
+                | entity-body закодировано согласно<br/>
+                Transfer-Encoding>
+            </code>
+        </td>
+    </tr>
+</table>
 <p>Поле <code>Transfer-Encoding</code> должно использоваться для указания любого кодирования передачи, применённого приложением в целях гарантирования безопасной и правильной передачи сообщения. Поле <code>Transfer-Encoding</code> — это свойство сообщения, а не объекта, и, таким образом, может быть добавлено или удалено любым приложением в цепочке запросов/ответов.</p>
 <p>Правила, устанавливающие допустимость тела сообщения в сообщении, отличны для запросов и ответов.</p>
 <p>Присутствие тела сообщения в запросе отмечается добавлением к заголовкам запроса поля заголовка <code>Content-Length</code> или <code>Transfer-Encoding</code>. Тело сообщения может быть добавлено в запрос, только когда метод запроса допускает тело объекта.</p>
 <p>Включается или не включается тело сообщения в сообщение ответа — зависит как от метода запроса, так и от кода состояния ответа. Все ответы на запрос с методом <code>HEAD</code> не должны включать тело сообщения, даже если присутствуют поля заголовка объекта (<code>entity-header</code>), заставляющие поверить в присутствие объекта. Никакие ответы с кодами состояния <code>1xx</code> (Информационные), <code>204</code> (Нет содержимого, No Content), и <code>304</code> (Не модифицирован, Not Modified) не должны содержать тела сообщения. Все другие ответы содержат тело сообщения, даже если оно имеет нулевую длину.</p>
 
-<h2 id="examples-of-http-dialogs" style="border-bottom:2px #000000  solid;">Примеры диалогов HTTP</h2>
-<table style="border:1px #000000 solid; border-collapse: collapse; text-align: center; width: 100%">
+<h2 id="examples-of-http-dialogs">Примеры диалогов HTTP</h2>
+<hr>
+<table>
     <tr>
-        <td style="border: 1px #000000 solid; padding: 10px;"><b>Обычный GET-запрос</b></td>
+        <td><b>Обычный GET-запрос</b></td>
     </tr>
     <tr>
-        <td style="border: 1px #000000 solid; padding: 10px;"><b>Перенаправления</b></td>
+        <td><b>Перенаправления</b></td>
     </tr>
     <tr>
-        <td style="border: 1px #000000 solid; padding: 10px;"><b>Докачка и фрагментарное скачивание</b></td>
+        <td><b>Докачка и фрагментарное скачивание</b></td>
     </tr>
 </table>
-<p style="text-align: center;"><em>См. также <a href="#partial-get">частичные GET</a>, <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8_HTTP#%D0%91%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%D1%8B%D0%B5_%D0%B4%D0%B8%D0%B0%D0%BF%D0%B0%D0%B7%D0%BE%D0%BD%D1%8B">байтовые диапазоны</a>, <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#206">ответ 206</a>, <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#416">ответ 416</a>.</em></p>
+<p><em>См. также <a href="#partial-get">частичные GET</a>, <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8_HTTP#%D0%91%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%D1%8B%D0%B5_%D0%B4%D0%B8%D0%B0%D0%BF%D0%B0%D0%B7%D0%BE%D0%BD%D1%8B">байтовые диапазоны</a>, <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#206">ответ 206</a>, <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP#416">ответ 416</a>.</em></p>
 
 
-<h2 id="basic-protocol-mechanisms" style="border-bottom:2px #000000  solid;">Основные механизмы протокола</h2>
+<h2 id="basic-protocol-mechanisms">Основные механизмы протокола</h2>
+<hr>
 <h3 id="partial-get">Частичные GET</h3>
 <p>HTTP позволяет запросить не сразу всё содержимое ресурса, а только указанный фрагмент. Такие запросы называются частичные <code>GET</code>; возможность их выполнения необязательна (но желательна) для серверов. Частичные <code>GET</code> в основном используются для <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80_%D0%B7%D0%B0%D0%BA%D0%B0%D1%87%D0%B5%D0%BA">докачки файлов</a> и быстрого параллельного скачивания в нескольких потоках. Некоторые программы скачивают заголовок архива, выводят пользователю внутреннюю структуру, а потом уже запрашивают фрагменты с указанными элементами архива.</p>
 <p>Для получения фрагмента клиент посылает серверу запрос с заголовком <code>Range</code>, указывая в нём необходимые <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8_HTTP#%D0%91%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%D1%8B%D0%B5_%D0%B4%D0%B8%D0%B0%D0%BF%D0%B0%D0%B7%D0%BE%D0%BD%D1%8B">байтовые диапазоны</a>. Если сервер не понимает частичные запросы (игнорирует заголовок <code>Range</code>), то он вернёт всё содержимое со статусом <a href="https://ru.wikipedia.org/wiki/HTTP_200"><code>200</code></a>, как и при обычном <code>GET</code>. В случае успешного выполнения сервер возвращает вместо кода <code>200</code> ответ со статусом <code>206</code> (Partial Content), включая в ответ заголовок <code>Content-Range</code>. Сами фрагменты могут быть переданы двумя способами:</p>
-<ul style="list-style-type: square;">
+<ul>
     <li>
         В ответе помещается заголовок <code>Content-Range</code> с указанием байтовых диапазонов. В<br/>
         соответствии с ними фрагменты последовательно помещаются в основное тело. При<br/>
@@ -405,7 +441,7 @@
 
 <h3 id="conditional-get">Условные GET</h3>
 <p>Метод <code>GET</code> изменяется на «условный <code>GET</code>», если сообщение запроса включает в себя поле заголовка <code>If-Modified-Since</code>. В ответ на «условный <code>GET</code>» тело запрашиваемого ресурса передаётся, только если он изменялся после даты, указанной в заголовке <code>If-Modified-Since</code>. Алгоритм определения этого включает в себя следующие случаи:</p>
-<ul style="list-style-type: square;">
+<ul>
     <li>
         Если статус ответа на запрос будет отличаться от «<code>200 OK</code>» или дата, указанная в<br/>
         поле заголовка «<code>If-Modified-Since</code>», некорректна, ответ будет идентичен ответу на<br/>
@@ -425,7 +461,7 @@
 <h3 id="content-negotiation">Согласование содержимого</h3>
 <p>Согласование содержимого (<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>Content Negotiation</em>) — механизм автоматического определения необходимого ресурса при наличии нескольких разнотипных версий документа. Субъектами согласования могут быть не только ресурсы сервера, но и возвращаемые страницы с сообщениями об ошибках (<a href="https://ru.wikipedia.org/wiki/HTTP_403"><code>403</code></a>, <a href="https://ru.wikipedia.org/wiki/HTTP_404"><code>404</code></a> и т. п.).</p>
 <p>Различают два основных типа согласований:</p>
-<ul style="list-style-type: square;">
+<ul>
     <li>Управляемое сервером (<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>server-driven</em>). </li>
     <li>Управляемое клиентом (<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> <em>agent-driven</em>).</li>
 </ul>
@@ -437,7 +473,7 @@
 <p>Географическое положение клиента можно определить по удалённому <a href="https://ru.wikipedia.org/wiki/IP-%D0%B0%D0%B4%D1%80%D0%B5%D1%81">IP-адресу</a>. Это возможно за счёт того что IP-адреса, как и <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D0%B8%D0%BC%D1%8F">доменные имена</a>, регистрируются на конкретного человека или организацию. При регистрации указывается регион, в котором будет использоваться желаемое адресное пространство. Эти данные общедоступны, и в Интернете можно найти соответствующие свободно распространяемые базы данных и готовые программные модули для работы с ними (следует ориентироваться на ключевые слова «Geo IP»).</p>
 <p>Следует помнить что такой метод способен определить местоположение максимум с точностью до города (отсюда определяется и страна). При этом информация актуальна только на момент регистрации адресного пространства. Например, если московский провайдер зарегистрирует диапазон адресов с указанием Москвы и начнёт предоставлять доступ клиентам из ближайшего Подмосковья, то его абоненты могут на некоторых сайтах наблюдать, что они из Москвы, а не из <a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA">Красногорска</a> или <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B7%D0%B5%D1%80%D0%B6%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)">Дзержинского</a>.</p>
 <p>Управляемое сервером согласование имеет несколько недостатков:</p>
-<ul style="list-style-type: square;">
+<ul>
     <li>
         Сервер только предполагает, какой вариант наиболее предпочтителен для конечного<br/>
         пользователя, но не может знать точно, что именно нужно в данный момент (например,<br/>
@@ -470,50 +506,55 @@
 <p>Параметр boundary означает разделитель между различными типами передаваемых сообщений. Например, передаваемый из формы параметр DestAddress передаёт значение адреса e-mail, а следующий за ним элемент AttachedFile1 отправляет двоичное содержимое изображения формата .jpg</p>
 <p>Со стороны сервера сообщения со множественным содержимым могут посылаться в ответ на частичные GET при запросе нескольких фрагментов ресурса. В этом случае используется медиатип <code>multipart/byteranges</code>.</p>
 <p>Со стороны клиента при отправке <a href="https://ru.wikipedia.org/wiki/HTML">HTML</a>-формы чаще всего пользуются методом POST. Типичный пример: страницы отправки <a href="https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D1%87%D1%82%D0%B0">электронных писем</a> со вложенными файлами. При отправке такого письма браузер формирует сообщение типа <code>multipart/form-data</code>, интегрируя в него как отдельные части, введённые пользователем, тему письма, адрес получателя, сам текст и вложенные файлы:</p>
-<p style="border:2px #000000  dashed; padding: 5px 0 5px 15px;">
-    <code>
-        POST /send-message.html HTTP/1.1<br/>
-        Host: mail.example.com<br/>
-        Referer: http://mail.example.com/send-message.html<br/>
-        User-Agent: BrowserForDummies/4.67b<br/>
-        Content-Type: multipart/form-data; boundary="Asrf456BGe4h"<br/>
-        Content-Length: (суммарный объём, включая дочерние заголовки)<br/>
-        Connection: keep-alive<br/>
-        Keep-Alive: 300<br/>
-        <em>(пустая строка)</em><br/>
-        <em>(отсутствующая преамбула)</em><br/>
-        --Asrf456BGe4h<br/>
-        Content-Disposition: form-data; name="DestAddress"<br/>
-        <em>(пустая строка)</em><br/>
-        brutal-vasya@example.com<br/>
-        --Asrf456BGe4h<br/>
-        Content-Disposition: form-data; name="MessageTitle"<br/>
-        <em>(пустая строка)</em><br/>
-        Я негодую<br/>
-        --Asrf456BGe4h<br/>
-        Content-Disposition: form-data; name="MessageText"<br/>
-        <em>(пустая строка)</em><br/>
-        Привет, Василий! Твой ручной лев, которого ты оставил<br/>
-        у меня на прошлой неделе, разодрал весь мой диван.<br/>
-        Пожалуйста, забери его скорее!<br/>
-        Во вложении две фотки с последствиями.<br/>
-        --Asrf456BGe4h<br/>
-        Content-Disposition: form-data; name="AttachedFile1"; filename="horror-photo-1.jpg"<br/>
-        Content-Type: image/jpeg<br/>
-        <em>(пустая строка)</em><br/>
-        <em>(двоичное содержимое первой фотографии)</em><br/>
-        --Asrf456BGe4h<br/>
-        Content-Disposition: form-data; name="AttachedFile2"; filename="horror-photo-2.jpg"<br/>
-        Content-Type: image/jpeg<br/>
-        <em>(пустая строка)</em><br/>
-        <em>(двоичное содержимое второй фотографии)</em><br/>
-        --Asrf456BGe4h--<br/>
-        <em>(отсутствующий эпилог)</em><br/>
-    </code>
-</p>
+<table>
+    <tr>
+        <td>
+            <code>
+                POST /send-message.html HTTP/1.1<br/>
+                Host: mail.example.com<br/>
+                Referer: http://mail.example.com/send-message.html<br/>
+                User-Agent: BrowserForDummies/4.67b<br/>
+                Content-Type: multipart/form-data; boundary="Asrf456BGe4h"<br/>
+                Content-Length: (суммарный объём, включая дочерние заголовки)<br/>
+                Connection: keep-alive<br/>
+                Keep-Alive: 300<br/>
+                <em>(пустая строка)</em><br/>
+                <em>(отсутствующая преамбула)</em><br/>
+                --Asrf456BGe4h<br/>
+                Content-Disposition: form-data; name="DestAddress"<br/>
+                <em>(пустая строка)</em><br/>
+                brutal-vasya@example.com<br/>
+                --Asrf456BGe4h<br/>
+                Content-Disposition: form-data; name="MessageTitle"<br/>
+                <em>(пустая строка)</em><br/>
+                Я негодую<br/>
+                --Asrf456BGe4h<br/>
+                Content-Disposition: form-data; name="MessageText"<br/>
+                <em>(пустая строка)</em><br/>
+                Привет, Василий! Твой ручной лев, которого ты оставил<br/>
+                у меня на прошлой неделе, разодрал весь мой диван.<br/>
+                Пожалуйста, забери его скорее!<br/>
+                Во вложении две фотки с последствиями.<br/>
+                --Asrf456BGe4h<br/>
+                Content-Disposition: form-data; name="AttachedFile1"; filename="horror-photo-1.jpg"<br/>
+                Content-Type: image/jpeg<br/>
+                <em>(пустая строка)</em><br/>
+                <em>(двоичное содержимое первой фотографии)</em><br/>
+                --Asrf456BGe4h<br/>
+                Content-Disposition: form-data; name="AttachedFile2"; filename="horror-photo-2.jpg"<br/>
+                Content-Type: image/jpeg<br/>
+                <em>(пустая строка)</em><br/>
+                <em>(двоичное содержимое второй фотографии)</em><br/>
+                --Asrf456BGe4h--<br/>
+                <em>(отсутствующий эпилог)</em><br/>
+            </code>
+        </td>
+    </tr>
+</table>
 <p>В примере в заголовках <code>Content-Disposition</code> параметр <code>name</code> соответствует атрибуту name в HTML-тегах <code>INPUT</code> и <code>TEXTAREA</code>. Параметр <code>filename</code> равен исходному имени файла на компьютере пользователя. Более подробная информация о формировании HTML- форм и вложении файлов в <a href="https://tools.ietf.org/html/rfc1867">RFC <code>1867</code></a>.</p>
 
-<h2 id="development-history" style="border-bottom:2px #000000  solid;">История развития</h2>
+<h2 id="development-history">История развития</h2>
+<hr>
 <dl>
     <dt><b>HTTP/0.9</b></dt>
     <dd>
@@ -534,7 +575,7 @@
     </dd>
     <dt><b>HTTP/1.1</b></dt>
     <dd>
-        Современная версия протокола; принята в июне <a href="https://ru.wikipedia.org/wiki/1999_%D0%B3%D0%BE%D0%B4">1999 года</a>[5]. Новым в этой версии<br/>
+        Современная версия протокола; принята в июне <a href="https://ru.wikipedia.org/wiki/1999_%D0%B3%D0%BE%D0%B4">1999 года</a>[<a href="#link5">5</a>]. Новым в этой версии<br/>
         был режим «постоянного соединения»: <a href="https://ru.wikipedia.org/wiki/TCP">TCP</a>-соединение может оставаться открытым<br/>
         после отправки ответа на запрос, что позволяет посылать несколько запросов за<br/>
         одно соединение. Клиент теперь обязан посылать информацию об имени <a href="https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D1%81%D1%82">хоста</a>, к<br/>
@@ -548,20 +589,21 @@
         <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D0%BD%D0%B0%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%B4">бинарным</a>. Среди ключевых особенностей: <a href="https://ru.wikipedia.org/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">мультиплексирование</a> запросов,<br/>
         расстановка приоритетов для запросов, сжатие заголовков, загрузка нескольких<br/>
         элементов параллельно посредством одного TCP-соединения, поддержка<br/>
-        проактивных <a href="https://ru.wikipedia.org/wiki/Push-%D1%83%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F">push-уведомлений</a> со стороны сервера[6].
+        проактивных <a href="https://ru.wikipedia.org/wiki/Push-%D1%83%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F">push-уведомлений</a> со стороны сервера[<a href="#link6">6</a>].
     </dd>
     <dt><b>HTTP/3</b></dt>
     <dd>
-        <a href="https://ru.wikipedia.org/wiki/HTTP/3">HTTP/3</a> — предлагаемый последователь HTTP/2[7][8], который уже используется в Веб<br/>
+        <a href="https://ru.wikipedia.org/wiki/HTTP/3">HTTP/3</a> — предлагаемый последователь HTTP/2[<a href="#link7">7</a>][<a href="#link8">8</a>], который уже используется в Веб<br/>
         на основе <a href="https://ru.wikipedia.org/wiki/User_Datagram_Protocol">UDP</a> вместо <a href="https://ru.wikipedia.org/wiki/Transmission_Control_Protocol">TCP</a> в качестве транспортного протокола. Как и HTTP/2, он не<br/>
         объявляет устаревшими предыдущие основные версии протокола. Поддержка<br/>
-        HTTP/3 была добавлена в <a href="https://ru.wikipedia.org/wiki/Cloudflare">Cloudflare</a> и <a href="https://ru.wikipedia.org/wiki/Google_Chrome">Chrome</a> в сентябре 2019 года[9][10] и<br/>
-        может быть включена в стабильных версиях Chrome и Firefox[11].
+        HTTP/3 была добавлена в <a href="https://ru.wikipedia.org/wiki/Cloudflare">Cloudflare</a> и <a href="https://ru.wikipedia.org/wiki/Google_Chrome">Chrome</a> в сентябре 2019 года[<a href="#link9">9</a>][<a href="#link10">10</a>] и<br/>
+        может быть включена в стабильных версиях Chrome и Firefox[<a href="#link11">11</a>].
     </dd>
 </dl>
 
-<h2 id="see-also" style="border-bottom:2px #000000  solid;">См. также</h2>
-<ul style="list-style-type: square;">
+<h2 id="see-also">См. также</h2>
+<hr>
+<ul>
     <li><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP">Список кодов состояния HTTP</a></li>
     <li>
         <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%BE%D0%B2_HTTP">
@@ -578,10 +620,11 @@
     <li><a href="https://ru.wikipedia.org/wiki/HTTPS">HTTPS</a></li>
 </ul>
 
-<h2 id="notes" style="border-bottom:2px #000000  solid;">Примечания</h2>
+<h2 id="notes">Примечания</h2>
+<hr>
 <ol>
-    <li>См. раздел «Abstract» в самом начале <a href="https://tools.ietf.org/html/rfc1945">RFC 1945</a> (1996-ой год) и <a href="https://tools.ietf.org/html/rfc9112">RFC 9112</a> (2022-ой).</li>
-    <li>
+    <li id="link1">См. раздел «Abstract» в самом начале <a href="https://tools.ietf.org/html/rfc1945">RFC 1945</a> (1996-ой год) и <a href="https://tools.ietf.org/html/rfc9112">RFC 9112</a> (2022-ой).</li>
+    <li id="link2">
         <a href="http://net.compulenta.ru/322974/">Объём HTTP-трафика впервые превысил P2P (http://net.compulenta.ru/322974/)</a> <a href="https://web.archive.org/web/20071222181125/http://net.compulenta.ru/322974/">Архивная<br/>
         копия (https://web.archive.org/web/20071222181125/http://net.compulenta.ru/322974/)</a> от 22<br/>
         декабря 2007 на <a href="https://ru.wikipedia.org/wiki/Wayback_Machine">Wayback Machine</a> // Компьюлента, 22 июня 2007 (<a href="http://www.ellacoya.com/news/pdf/2007/NXTcommEllacoyaMediaAlert.pdf">Официальный<br/>
@@ -590,54 +633,54 @@
         acoya.com/news/pdf/2007/NXTcommEllacoyaMediaAlert.pdf)</a> от 22 июня 2007 на <a href="https://ru.wikipedia.org/wiki/Wayback_Machine">Wayback<br/>
         Machine</a>).
     </li>
-    <li>
+    <li id="link3">
         <a href="https://www.webcitation.org/68e5RnSBE?url=http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html">HTTP/1.1: Method Definitions (https://www.webcitation.org/68e5RnSBE?url=http://www.w3.org/<br/>
         Protocols/rfc2616/rfc2616-sec9.html)</a> (англ.). Архивировано из <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html">оригинала (http://www.w3.org/Proto<br/>
         cols/rfc2616/rfc2616-sec9.html)</a> 23 июня 2012 года.
     </li>
-    <li>
+    <li id="link4">
         См. первое предложение раздела «<a href="https://tools.ietf.org/html/rfc2068#section-6.1.1">6.1.1 Status Code and Reason Phrase</a>» в RFC 2068. На<br/>
         <a href="https://tools.ietf.org/html/rfc2068#page-40">стр. 40</a> есть также объявление в формате расширенной <a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0_%D0%91%D1%8D%D0%BA%D1%83%D1%81%D0%B0_%E2%80%94_%D0%9D%D0%B0%D1%83%D1%80%D0%B0">БНФ</a>-формы (<a href="https://en.wikipedia.org/wiki/Augmented_Backus%E2%80%93Naur_Form">Augmented BNF</a>)<br/>
         «<code>extension-code = 3DIGIT</code>» для кодов расширений.
     </li>
-    <li>
+    <li id="link5">
         Впервые спецификация HTTP/1.1 была опубликована в январе <a href="https://ru.wikipedia.org/wiki/1997">1997 RFC 2068 (https://to<br/>
         ols.ietf.org/html/rfc2068)</a>; в современной версии <a href="https://tools.ietf.org/html/rfc2616">RFC 2616 (https://tools.ietf.org/html/rfc2616)</a><br/>
         исправлены опечатки, местами улучшены терминология и оформление. Также<br/>
         разъяснено допустимое поведение клиента (браузера), сервера и <a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D1%81%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80">прокси-серверов</a> в<br/>
         некоторых сомнительных ситуациях. То есть версия 1.1 появилась всё-таки в 1997 году.
     </li>
-    <li>
+    <li id="link6">
         <a href="https://tools.ietf.org/html/draft-ietf-httpbis-http2-17">HTTP/2 Draft (https://tools.ietf.org/html/draft-ietf-httpbis-http2-17)</a>. Дата обращения: 25 февраля<br/>
         2015. <a href="https://web.archive.org/web/20150220174227/https://tools.ietf.org/html/draft-ietf-httpbis-http2-17">Архивировано (https://web.archive.org/web/20150220174227/https://tools.ietf.org/html/draft-ietf-htt<br/>
         pbis-http2-17)</a> 20 февраля 2015 года.
     </li>
-    <li>
+    <li id="link7">
         <em>Bishop, Mike</em> <a href="https://tools.ietf.org/html/draft-ietf-quic-http-22">Hypertext Transfer Protocol Version 3 (HTTP/3) (https://tools.ietf.org/html/draft-ietf<br/>
         -quic-http-22)</a> (англ.). tools.ietf.org (9 июля 2019). Дата обращения: 16 августа 2019.<br/>
         <a href="https://web.archive.org/web/20190831231502/https://tools.ietf.org/html/draft-ietf-quic-http-22">Архивировано (https://web.archive.org/web/20190831231502/https://tools.ietf.org/html/draft-ietf-quic-http<br/>
         -22)</a> 31 августа 2019 года.
     </li>
-    <li>
+    <li id="link8">
         <em>Cimpanu, Catalin</em>. <a href="https://www.zdnet.com/article/http-over-quic-to-be-renamed-http3/">HTTP-over-QUIC to be renamed HTTP/3 | ZDNet (https://www.zdnet.com/art<br/>
         icle/http-over-quic-to-be-renamed-http3/)</a> (англ.), ZDNet. <a href="https://web.archive.org/web/20181113020115/https://www.zdnet.com/article/http-over-quic-to-be-renamed-http3/">Архивировано (https://web.archive.org/we<br/>
         b/20181113020115/https://www.zdnet.com/article/http-over-quic-to-be-renamed-http3/)</a> 13 ноября<br/>
         2018 года. Дата обращения: 10 августа 2020.
     </li>
-    <li>
+    <li id="link9">
         <em>Cimpanu, Catalin</em> <a href="https://www.zdnet.com/article/cloudflare-google-chrome-and-firefox-add-http3-support/">Cloudflare, Google Chrome, and Firefox add HTTP/3 support (https://www.zd<br/>
         net.com/article/cloudflare-google-chrome-and-firefox-add-http3-support/)</a>. ZDNet (26 сентября<br/>
         2019). Дата обращения: 27 сентября 2019. <a href="https://web.archive.org/web/20190926131659/https://www.zdnet.com/article/cloudflare-google-chrome-and-firefox-add-http3-support/">Архивировано (https://web.archive.org/web/20190926131<br/>
         659/https://www.zdnet.com/article/cloudflare-google-chrome-and-firefox-add-http3-support/)</a> 26 сентября<br/>
         2019 года.
     </li>
-    <li>
+    <li id="link10">
         <a href="https://blog.cloudflare.com/http3-the-past-present-and-future/">HTTP/3: the past, the present, and the future (https://blog.cloudflare.com/http3-the-past-present<br/>
         -and-future/)</a> (англ.). The Cloudflare Blog (26 сентября 2019). Дата обращения: 30 октября<br/>
         2019. <a href="https://web.archive.org/web/20190926131655/https://blog.cloudflare.com/http3-the-past-present-and-future/">Архивировано (https://web.archive.org/web/20190926131655/https://blog.cloudflare.com/http3-the<br/>
         -past-present-and-future/)</a> 26 сентября 2019 года.
     </li>
-    <li>
+    <li id="link11">
         <a href="https://community.cloudflare.com/t/firefox-nightly-supports-http-3/127778">Firefox Nightly supports HTTP 3 - General - Cloudflare Community (https://community.cloudflar<br/>
         e.com/t/firefox-nightly-supports-http-3/127778)</a> (19 ноября 2019). Дата обращения: 23 января<br/>
         2020. <a href="https://web.archive.org/web/20200606233655/https://community.cloudflare.com/t/firefox-nightly-supports-http-3/127778">Архивировано (https://web.archive.org/web/20200606233655/https://community.cloudflare.com/t/fir<br/>
@@ -645,8 +688,9 @@
     </li>
 </ol>
 
-<h2 id="links" style="border-bottom:2px #000000  solid;">Ссылки</h2>
-<ul style="list-style-type: square;">
+<h2 id="links">Ссылки</h2>
+<hr>
+<ul>
     <li>Медиафайлы по теме <a href="https://commons.wikimedia.org/wiki/Category:HTTP">HTTP</a> на <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D1%81%D0%BA%D0%BB%D0%B0%D0%B4">Викискладе</a></li>
     <li><a href="https://tools.ietf.org/html/rfc1945">RFC 1945</a> — HTTP/1.0 (Май 1996), включает версию 0.9</li>
     <li>
@@ -686,9 +730,9 @@
         oject-glava-2-chast-1/)</a>
     </li>
 </ul>
-<p style="border-bottom:2px #000000  solid;"></p>
+<hr>
 <p>Источник — <a href="https://ru.wikipedia.org/w/index.php?title=HTTP&oldid=133770853">https://ru.wikipedia.org/w/index.php?title=HTTP&oldid=133770853</a></p>
-<p style="border-bottom:1px #000000  solid;"></p>
+<hr>
 <p><b>Эта страница в последний раз была отредактирована 24 октября 2023 в 01:18.</b></p>
 <p>
     Текст доступен по лицензии Creative Commons «С указанием авторства — С сохранением условий» (CC BY-<br/>
